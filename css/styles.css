@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  font-family: 'Tilt Warp', cursive;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+
+}
+
+/*CABECERA*/
+header {
+  width: 100%;
+  height: 200px;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  padding: 25px 0;
+}
+
+.logo img {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 430px;
+  margin: auto;
+}
+
+header{
+    background-color: #dfe4ea;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #3c6382;
+  font-size: 14px;
+}
+
+.menu a:hover {
+  color: #6a89cc;
+}
+
+/*FIN DE CABECERA*/
+
+.bannerindex {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/img1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bannerindex>div {
+  width: 100%;
+  height: 100%;
+
+}
+
+.llamada-accion {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.llamada-accion p {
+  font-size: 24px;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.llamada-accion h2 {
+  font-size: 60px;
+  color: black;
+  width: 100%;
+  padding: 45px 0;
+  max-width: 470px;
+  font-family: 'Phudu', cursive;
+}
+
+.llamada-accion a {
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 50px;
+  background-color: #3c6382;
+  margin-top: 35px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.llamada-accion a:hover {
+  background-color: #8395a7;
+}
+
+/*SECCION DE BIENVENIDA*/
+
+.bienvenida {
+  width: 100%;
+  background-color: #3c6382;
+  margin-top: 0 px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.bienvenida h3 {
+  font-size: 26px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  font-family: 'Phudu', cursive;
+}
+
+.bienvenida p {
+  font-size: 15px;
+  padding-bottom: 100px;
+  line-height: 1.8em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/*FIN DE SECCION DE BIENVENIDA*/
+
+/*SECCION DE SOBRE NOSOTROS*/
+.nosotros {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #dfe4ea;
+}
+
+.nosotros>.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.foto-equipo {
+  width: 100%;
+  max-width: 570px;
+  margin-right: 200px;
+}
+
+.foto-equipo img {
+  width: 100%;
+}
+
+.conocenos {
+  text-align: center;
+  padding: 15px 0px;
+  max-width: 600px;
+}
+
+
+.conocenos p:nth-child(1) {
+  font-size: 14px;
+  color: #0a3d62 ;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3c6382;
+}
+
+.conocenos h3 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #7614c6;
+  font-size: 30px;
+  font-family: 'Phudu', cursive;
+}
+
+.conocenos a {
+  font-size: 15px;
+  color: #7614c6;
+  line-height: 2em;
+}
+
+/*FIN DE SECCION DE SOBRE NOSOTROS*/
+
+/*PIE DE PÁGINA*/
+
+.center-footer {
+  background-color: #8395a7;
+}
+
+.center-footer .contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.center-footer .widget {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 85px;
+  color: #ffffff;
+
+  max-width: 270px;
+  margin: 0 auto;
+}
+.center-footer h2{
+  text-align: center;
+  color: white;
+}
+
+.center-footer .widget h4 {
+
+  padding-bottom: 35px;
+  font-size: 18px;
+  font-family: 'Phudu', cursive;
+}
+
+.center-footer .widget p {
+  font-size: 14px;
+}
+
+.bottom-footer {
+  background-color: #3c6382;
+  height: 50px;
+}
+
+.bottom-footer p {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+/**SECTION SOBRE MI*/
+.galeria{
+  width: 100%;
+  text-align: center;
+}
+
+.galeria img{
+  width: 300px;
+  height: 300px;
+  margin :15px;
+  padding: 5px;
+  opacity: 0.4;
+  vertical-align: top;
+  border: 1px solid rgb(85, 83, 83);
+}
+
+.galeria img:hover{
+  opacity: 1;
+  border: 1px solid white;
+}
+
+.contacto-ind{
+  padding-top: 85px;
+  padding-bottom: 50px;
+  background-color: #8395a7;
+}
+
+.contacto-ind>.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.conocenos input{
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  line-height: 10px; 
+  margin-bottom: 5px;
+  border: none;
+  color: #0a3d62;
+  background-color: #dfe4ea;
+}
+
+.conocenos textarea{
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  line-height: 10px; 
+  margin-bottom: 5px;
+  border: none;
+  color: #0a3d62;
+  background-color: #dfe4ea;
+}
